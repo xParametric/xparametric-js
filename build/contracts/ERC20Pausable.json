@@ -320,7 +320,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v4.8.2) (token/ERC20/extensions/ERC20Pausable.sol)\n\npragma solidity ^0.8.0;\n\nimport \"../ERC20.sol\";\nimport \"../../../security/Pausable.sol\";\n\n/**\n * @dev ERC20 token with pausable token transfers, minting and burning.\n *\n * Useful for scenarios such as preventing trades until the end of an evaluation\n * period, or having an emergency switch for freezing all token transfers in the\n * event of a large bug.\n *\n * IMPORTANT: This contract does not include public pause and unpause functions. In\n * addition to inheriting this contract, you must define both functions, invoking the\n * {Pausable-_pause} and {Pausable-_unpause} internal functions, with appropriate\n * access control, e.g. using {AccessControl} or {Ownable}. Not doing so will\n * make the contract unpausable.\n */\nabstract contract ERC20Pausable is ERC20, Pausable {\n    /**\n     * @dev See {ERC20-_beforeTokenTransfer}.\n     *\n     * Requirements:\n     *\n     * - the contract must not be paused.\n     */\n    function _beforeTokenTransfer(\n        address from,\n        address to,\n        uint256 amount\n    ) internal virtual override {\n        super._beforeTokenTransfer(from, to, amount);\n\n        require(!paused(), \"ERC20Pausable: token transfer while paused\");\n    }\n}\n",
-  "sourcePath": "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol",
+  "sourcePath": "@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Pausable.sol",
   "ast": {
     "absolutePath": "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol",
     "exportedSymbols": {
@@ -797,8 +797,8 @@
     "version": "0.8.18+commit.87f61d96.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.10",
-  "updatedAt": "2023-05-19T16:01:43.958Z",
+  "schemaVersion": "3.4.14",
+  "updatedAt": "2023-09-09T10:36:00.798Z",
   "devdoc": {
     "details": "ERC20 token with pausable token transfers, minting and burning. Useful for scenarios such as preventing trades until the end of an evaluation period, or having an emergency switch for freezing all token transfers in the event of a large bug. IMPORTANT: This contract does not include public pause and unpause functions. In addition to inheriting this contract, you must define both functions, invoking the {Pausable-_pause} and {Pausable-_unpause} internal functions, with appropriate access control, e.g. using {AccessControl} or {Ownable}. Not doing so will make the contract unpausable.",
     "events": {
