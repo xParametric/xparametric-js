@@ -20,7 +20,7 @@ module.exports = {
         "https://eth-sepolia.g.alchemy.com/v2/" + ALCHEMY_API_KEY
       ),
       network_id: 1,
-      gasPrice: 100000000000,
+
       websockets: true,
     },
     moonriver: {
@@ -77,7 +77,7 @@ module.exports = {
         "https://eth-sepolia.g.alchemy.com/v2/" + ALCHEMY_API_KEY
       ),
       network_id: 11155111,
-      // gasPrice: 100000000000,
+      gasPrice: 24926022802,
       // websockets: true,
     },
     polygon_zkevm: {

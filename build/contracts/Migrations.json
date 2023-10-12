@@ -1414,12 +1414,12 @@
     "11155111": {
       "events": {},
       "links": {},
-      "address": "0xE3051f2875C504BC04e77dB48Eb3bD576fe99146",
-      "transactionHash": "0x75005aa96e9ff4f5c22d99c39260b96a5151d0760013e288147ed08262c313e8"
+      "address": "0x3137416dc1A674a2FdD97f453182C89923754E94",
+      "transactionHash": "0x8e4e11bc6c9a59db87c66d7b56c18ca8864446542318c9bf54844fa44f8d8a0c"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-09-09T10:36:51.524Z",
+  "updatedAt": "2023-10-12T18:33:15.781Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

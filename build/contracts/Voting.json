@@ -9812,10 +9812,16 @@
       "links": {},
       "address": "0x51cff641ef2c29303633264CF45b9A5A25cd520E",
       "transactionHash": "0xde3944d912c1497ba6609fa38f4343911d5c2a6bcbbf326eebc3802af84e822d"
+    },
+    "11155111": {
+      "events": {},
+      "links": {},
+      "address": "0x6247bFF1356Afb4B544477A0A5534D0A731438E6",
+      "transactionHash": "0xff2092c846a0bd768db1d3c8fa82dc2c8c20882ca0befd360d1462b99af835dc"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-09-09T10:36:01.042Z",
+  "updatedAt": "2023-10-12T18:32:18.393Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

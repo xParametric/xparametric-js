@@ -8134,10 +8134,16 @@
       "links": {},
       "address": "0xd33028ba4281cD72c8e49E5B05E77c49Fd835161",
       "transactionHash": "0x6602f4083e5fef3d58b495422cfc6070d3bf432317d7fab0c314e0d2e4f02ed7"
+    },
+    "11155111": {
+      "events": {},
+      "links": {},
+      "address": "0x3466a2d5EA52eB61a75E21aBCb2eac0a96902aCF",
+      "transactionHash": "0xb38bdb5805a1f58179e71029e6cd5b495dc997893c5293bf80a4232596825b2f"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-09-09T10:36:01.048Z",
+  "updatedAt": "2023-10-12T18:32:18.397Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

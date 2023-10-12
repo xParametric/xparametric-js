@@ -80577,10 +80577,16 @@
       "links": {},
       "address": "0xcd01d922a7f96Cb660031c7B5dc11CfD2446307f",
       "transactionHash": "0xfbfffad61508412a81ff78eb6e563e8311d3f5a8789db02b53946eb0ff6d2f51"
+    },
+    "11155111": {
+      "events": {},
+      "links": {},
+      "address": "0xcE10B5baf0C4454Ad2BFc2758AC5518cFBF70323",
+      "transactionHash": "0xe45ba37acd3d2407b8dc4a3d8545f2b993b81f85e793bc7c396a4d24461da691"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-09-09T10:36:51.498Z",
+  "updatedAt": "2023-10-12T18:33:15.750Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

@@ -27170,10 +27170,16 @@
       "links": {},
       "address": "0xFfc3BAa15A7CEa6E9Ecde1DD77F7B37085094F41",
       "transactionHash": "0x3c653232276a159e054cd5921abb28c22abcf9c25175bb43ef8af9cd7a64aa95"
+    },
+    "11155111": {
+      "events": {},
+      "links": {},
+      "address": "0x261C4cF55f736755B0681B14Aa16da97F9C0EAa6",
+      "transactionHash": "0x8946b3cf3a752c5ca5cdcf37d02d01e50610fbc765e3cd835232a777a9940af9"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-09-09T10:36:00.866Z",
+  "updatedAt": "2023-10-12T18:32:18.254Z",
   "devdoc": {
     "events": {
       "Approval(address,address,uint256)": {
